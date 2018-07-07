@@ -110,7 +110,7 @@ public class PaymentController {
         }
 
         httpServletResponse.setContentType("text/html;charset=utf-8" );
-        //消息队列    将支付结果延迟加载   返回三次  我不管有没有支付   都要返回结果
+        //消息队列    将支付结果延迟加载   返回三次  我不管有没有支付   都要返回结果111
         PaymentInfo paymentInfo1 = new PaymentInfo();
         paymentInfo1.setOutTradeNo(paymentInfo.getOutTradeNo());
         paymentService.sendOrderInfoUpdateQueue(paymentInfo.getOutTradeNo(),3,10);
