@@ -14,7 +14,7 @@
         <relativePath>../gmall-parent/pom.xml</relativePath>
     </parent>
 
-    <dependencies>
+    <dependencies    >
         <dependency>
             <groupId>com.atguigu.gmall1108</groupId>
             <artifactId>gmall-bean</artifactId>
