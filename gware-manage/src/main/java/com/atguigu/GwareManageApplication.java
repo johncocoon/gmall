@@ -10,6 +10,12 @@ import tk.mybatis.spring.annotation.MapperScan;
 @MapperScan(basePackages = "com.atguigu.gware.mapper")
 public class GwareManageApplication {
 
+
+
+
+
+
+
 	public static void main(String[] args) {
 		SpringApplication.run(GwareManageApplication.class, args);
 	}
