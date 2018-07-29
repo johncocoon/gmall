@@ -11,6 +11,7 @@ import java.util.Objects;
  */
 public class BaseAttrInfo implements Serializable {
 
+
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     @Column
